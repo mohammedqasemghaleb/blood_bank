@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700;800;900;1000&display=swap');
+
+html,
+body {
+	height: 100%;
+	font-family: 'Cairo', sans-serif;
+}
+
+body.my-login-page {
+	background-color: #e3e3e3;
+	font-size: 14px;
+	background-image: url('../img/2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+button {
+	background-color: #ad0101 !important;
+	color: #FFF !important;
+}
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	padding: 15px;
+	/* overflow: hidden; */
+	border-radius: 50%;
+	border: 2px solid #ad0101;
+	background-color: #ffff;
+	margin: 5px auto;
+	margin-top: -15px;
+	outline: 1px dotted #fff;
+	/* box-shadow: 0 4px 8px rgba(0,0,0,.05); ad0101 */
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-radius: 8px;
+	margin-top: 25px;
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.my-login-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
+
+/* Start Google Map */
+.map-container-9,
+.map-container-10,
+.map-container-11 {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map-container-9 iframe,
+.map-container-10 iframe,
+.map-container-11 iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+/* End Google Map */
+/* Start Get User Location */
+.form-group .container-location {
+	background-color: #ffffff;
+	padding: 3em 1.8em;
+	border-radius: 0.6em;
+	box-shadow: 0 0.6em 2.5em rgba(0, 7, 70, 0.2);
+}
+
+.container-location img {
+	width: 6.25em;
+	display: block;
+	margin: auto;
+}
+
+#location-details {
+	/* font-size: 1.75em; */
+	text-align: center;
+	margin: 1em 0 1.7em 0;
+	color: #021d38;
+	font-weight: 500;
+}
+
+.container-location button {
+	display: block;
+	margin: auto;
+	background-color: #dc3545;
+	color: #ffffff;
+	border: none;
+	/* font-size: 1.25em; */
+	padding: 1em 2.5em;
+	border-radius: 0.25em;
+	cursor: pointer;
+}
+
+/* End Get User Location */
